@@ -23,7 +23,7 @@ html {
 
 /* Style the .row elements */
 .row {
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.0);
   margin: 10px;
   min-height: 120px;
 }
@@ -36,7 +36,7 @@ html {
   text-align: center;
   white-space: nowrap;
   padding: 20px 10px;
-  min-width: 145px;
+  min-width: 300px;
 }
 
 /* ----------------------------------------------- */
@@ -52,18 +52,22 @@ display: flex;
 
 /* OR Style each row individually with these selectors */
 #row1 {
-  align-items: flex-start;
+  flex-direction: row;
+  align-self: stretch;
 }
 
 #row2 {
-  align-items: flex-end;
+  flex-direction: row;
+  align-self: stretch;
 }
 
-#row3 {
-  align-items: center;
 }
-
 /* Child elements or items */
 .item {
 
+}
+
+
+.subrow{
+  display: flex;
 }
