@@ -21,7 +21,7 @@
 }
 
 #row1 {
-  align-items: center;
+  align-items: flex-start;
 }
 
 #row2 {
