@@ -16,18 +16,11 @@
 
 .container {
   display: grid;
-  grid-template-columns: /*insert format here*/;
-  grid-template-rows: /*insert formal here*/;
+  /* Style rows and columns */
 }
 
-.row {
-
+#title {
+  grid-column: /*this should span the entire page*/;
 }
 
-#row1 {
-  align-items: flex-start;
-}
-
-#row2 {
-  align-items: center;
-}
+/* Style family members */

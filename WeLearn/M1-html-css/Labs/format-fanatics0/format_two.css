@@ -15,19 +15,47 @@
  */
 
 .container {
-  display: grid;
-  grid-template-columns: /*insert format here*/;
-  grid-template-rows: /*insert formal here*/;
+  display:grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  /* Style the template for the grid */
 }
 
-.row {
-
+/* Making border black */
+#b {
+  background-color: black;
 }
 
-#row1 {
-  align-items: flex-start;
+.border-side {
+  grid-row: span 7;
 }
 
-#row2 {
-  align-items: center;
+.border-top {
+  grid-column: span 9;
 }
+
+#title {
+  grid-column: span 9;
+}
+
+#photo {
+  grid-column: span 3;
+  grid-row: span 3; /*insert format*/;
+}
+
+#caption {
+  grid-column: span 7;
+}
+
+#date {
+  grid-column: span 2;
+}
+
+.border-bottom {
+  grid-column: span 9;
+}
+
+
+
+
+/* Style remaining grid elements */

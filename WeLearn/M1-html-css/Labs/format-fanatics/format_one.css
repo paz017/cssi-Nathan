@@ -19,15 +19,3 @@
   grid-template-columns: /*insert format here*/;
   grid-template-rows: /*insert formal here*/;
 }
-
-.row {
-
-}
-
-#row1 {
-  align-items: flex-start;
-}
-
-#row2 {
-  align-items: center;
-}
